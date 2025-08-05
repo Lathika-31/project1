@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=">
+    <title>Document</title>
+</head>
+<style>
+    *
+    {
+        margin: 0cm;
+        padding: 0;
+      box-sizing: border-box;
+      
+    }
+    header
+    {
+        background-color: rgb(169, 169, 225);
+        text-align: center;
+        font-size:xx-large;
+        font-family:'Times New Roman', Times, serif;
+        color: aliceblue;
+        padding:20px;
+        
+        
+    }
+    #about{
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:rgb(46, 89, 104);
+        padding: 50px;
+
+    }
+    img{
+        width: 160px;
+        height: 160px;
+         border-radius:50%;
+         object-fit: cover;
+        margin:20px 0;
+        
+    }
+    p
+    {
+        box-sizing: border-box;
+        font-size: medium;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color: black;
+        font-weight:900;
+        padding: 0cm;
+        margin: 0cm;
+      
+    }
+    .skills-list {
+        display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .skills-list span {
+      background: #bad1fb;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+    #skills{
+        text-align:center ;
+        color: rgb(10, 5, 15);
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+
+    }
+    .project:hover
+    {
+      background-color: rgb(218, 222, 220);
+      transform: scale(1.09);
+    }
+
+    .project {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      background: #f9f9f9;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;;
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .resume {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .resume a {
+      background: #92a5bf;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .contact {
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+    body{
+      background-color: rgb(232, 227, 244);
+    }
+</style>
+<body>
+    <header> 
+<b>Lathika Reddy</b>
+<br>
+<i style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: medium;" > Aspiring Web Developer</i>
+    </header>
+    <br>
+    <section id="about">
+<h2> About Me</h2> <br> 
+
+<img src="pro1.jpeg" > 
+<br>
+<br>
+<p> Hello! I'm Lathika, a Computer Science student passionate about creating interactive and responsive websites. I love learning new technologies to build impactful projects.</p>
+    </section>
+
+<section id="skills">
+<h1 style="color: #945959;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> My Skills</h1>
+<br>
+<br>
+<div class="skills-list">
+    <span>  HTML</span>
+    <span> CSS3</span>
+    <span> JavaScript</span>
+    <span> Python</span>
+    <span> Java</span>
+    <span>next.js</span>
+    <span> MySQL</span>
+    <span> LinkedIn</span>
+    <span>Git & Hub</span>
+   
+
+
+</div>
+<br>
+</section>
+
+<section id="projects">
+    <br>
+    <h2 style="text-align: center; color: #004d99">Projects</h2>
+    <br>
+    <div class="projects">
+      <div class="project">
+        <img src="frame3.jpeg" alt="Project 1">
+        <h3>Personal Blog</h3>
+        <p>A simple responsive blog website using HTML and CSS.</p>
+      </div>
+
+      <div class="project">
+        <img src="frame2.jpeg" alt="Project 2">
+        <h3>Calculator</h3>
+        <p>A basic calculator built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <img src="frame1.jpeg" alt="Project 3">
+        <h3>Portfolio Website</h3>
+        <p>My own portfolio showcasing my skills and projects.</p>
+      </div>
+    </div>
+</section>
+
+<section id="resume" class="resume">
+    <br>
+    <h2 style="color: #004d99">Resume</h2>
+    <br>
+    <a href="resume.pdf" download>Download My Resume</a>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 style="color:  #074b57;">Contact Me</h2>
+    <br>
+    <p>Email: <a href="mailto:velugotilathikareddy@gmail.com">velugotilathikareddy@gmail.com</a></p>
+    <p>Phone: +91 6305627558</p>
+  </section>
+
+  <footer>
+    <p style="color:rgb(68, 19, 68);"> &copy; 2025 Lathika Reddy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
